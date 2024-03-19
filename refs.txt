@@ -1,0 +1,30 @@
+https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/
+https://medium.com/mozilla-club-bbsr/dockerizing-a-mern-stack-web-application-ebf78babf136
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/
+https://demos.creative-tim.com/material-kit-pro-react/#/documentation/tutorial
+https://www.youtube.com/watch?v=DftsReyhz2Q&ab_channel=DevOpsDirective
+https://medium.com/swlh/run-python-script-from-node-js-and-send-data-to-browser-15677fcf199f
+
+
+install build-essentials on docker
+https://stackoverflow.com/questions/14772508/npm-failed-to-install-time-with-make-not-found-error
+
+
+
+
+
+media refs:
+https://www.pexels.com/photo/person-in-black-top-inside-orange-lighted-room-1719233/
+https://www.pexels.com/photo/boy-in-white-t-shirt-sitting-on-chair-in-front-of-computer-4709285/
+https://www.pexels.com/photo/woman-in-black-leather-jacket-holding-microphone-4904564/
+
+
+
+
+recaptcha enhanced
+mongodb
+express server
+reactjs frontend
+kalilinux system
+

@@ -1,0 +1,59 @@
+{
+  "name": "xamir-security-portal",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.11.4",
+    "@material-ui/icons": "4.11.2",
+    "animate.css": "4.1.1",
+    "axios": "^0.21.1",
+    "classnames": "2.3.1",
+    "moment": "2.29.1",
+    "node-sass": "6.0.0",
+    "nouislider": "15.1.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-animate-on-scroll": "2.1.5",
+    "react-datetime": "3.0.4",
+    "react-dom": "17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-image-gallery": "1.0.9",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "react-slick": "0.28.1",
+    "react-tagsinput": "3.19.0",
+    "terminal-in-react": "^4.3.1"
+  },
+  "scripts": {
+    "start": "PORT=8000 react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint:check": "eslint . --ext=js,jsx;  exit 0",
+    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/material-kit-pro-react.scss src/assets/css/material-kit-pro-react.css",
+    "minify-sass": "node-sass src/assets/scss/material-kit-pro-react.scss src/assets/css/material-kit-pro-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/material-kit-pro-react.scss src/assets/css/material-kit-pro-react.css --source-map true"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9"
+  },
+  "optionalDependencies": {
+    "@babel/core": "7.14.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.23.2",
+    "prettier": "2.3.0",
+    "typescript": "4.2.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": []
+  }
+}

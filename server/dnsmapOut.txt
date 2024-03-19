@@ -1,0 +1,17 @@
+dnsmap 0.36 - DNS Network Mapper
+
+usage: dnsmap <target-domain> [options]
+
+options:
+-w <wordlist-file>
+-r <regular-results-file>
+-c <csv-results-file>
+-d <delay-millisecs>
+-i <ips-to-ignore> (useful if you're obtaining false positives)
+
+e.g.:
+dnsmap example.com
+dnsmap example.com -w yourwordlist.txt -r /tmp/domainbf_results.txt
+dnsmap example.com -r /tmp/ -d 3000
+dnsmap example.com -r ./domainbf_results.txt
+
